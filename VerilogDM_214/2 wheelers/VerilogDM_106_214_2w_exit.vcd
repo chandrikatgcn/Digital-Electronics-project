@@ -1,0 +1,206 @@
+$date
+	Tue Nov 07 20:08:06 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module VerilogDM_214_test1 $end
+$var wire 2 ! q1 [1:0] $end
+$var wire 4 " num_exit1 [3:0] $end
+$var wire 1 # gate_open1 $end
+$var wire 1 $ gate_closed1 $end
+$var wire 1 % chance_over1 $end
+$var reg 1 & buzzer1 $end
+$var reg 1 ' entry1 $end
+$var reg 1 ( exit1 $end
+$var reg 12 ) password1 [12:1] $end
+$var reg 1 * reset11 $end
+$scope module test1 $end
+$var wire 1 + and_of_pass_out_c1_or1 $end
+$var wire 1 & buzzer1 $end
+$var wire 1 , c1_or1 $end
+$var wire 1 % chance_over1 $end
+$var wire 1 ' entry1 $end
+$var wire 1 ( exit1 $end
+$var wire 1 $ gate_closed1 $end
+$var wire 1 # gate_open1 $end
+$var wire 1 - pass_out_not1 $end
+$var wire 12 . password1 [12:1] $end
+$var wire 1 * reset11 $end
+$var wire 2 / q1 [1:0] $end
+$var wire 1 0 pass_out1 $end
+$var wire 4 1 num_exit1 [3:0] $end
+$scope module c1_bit0_ $end
+$var wire 1 2 clk $end
+$var wire 1 3 rst $end
+$var wire 1 4 t $end
+$var reg 1 5 q $end
+$upscope $end
+$scope module c1_bit1_ $end
+$var wire 1 & clk $end
+$var wire 1 * rst $end
+$var wire 1 6 t $end
+$var reg 1 7 q $end
+$upscope $end
+$scope module c2_bit0_ $end
+$var wire 1 0 clk $end
+$var wire 1 * rst $end
+$var wire 1 8 t $end
+$var reg 1 9 q $end
+$upscope $end
+$scope module c2_bit1_ $end
+$var wire 1 : clk $end
+$var wire 1 * rst $end
+$var wire 1 ; t $end
+$var reg 1 < q $end
+$upscope $end
+$scope module c2_bit2_ $end
+$var wire 1 = clk $end
+$var wire 1 * rst $end
+$var wire 1 > t $end
+$var reg 1 ? q $end
+$upscope $end
+$scope module c2_bit3_ $end
+$var wire 1 @ clk $end
+$var wire 1 * rst $end
+$var wire 1 A t $end
+$var reg 1 B q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0B
+1A
+1@
+0?
+1>
+1=
+0<
+1;
+1:
+09
+18
+07
+16
+05
+14
+03
+12
+b0 1
+00
+b0 /
+b0 .
+1-
+0,
+0+
+1*
+b0 )
+x(
+x'
+1&
+1%
+1$
+0#
+b0 "
+b0 !
+$end
+#5
+0&
+#15
+0$
+0%
+1#
+1+
+0:
+02
+1,
+b1 "
+b1 1
+19
+b1 !
+b1 /
+17
+0-
+10
+0*
+b1011010010 )
+b1011010010 .
+1&
+1(
+0'
+#20
+1$
+0#
+0+
+1-
+00
+0&
+#30
+0=
+1<
+15
+0%
+1:
+12
+1,
+b10 "
+b10 1
+09
+b10 !
+b10 /
+07
+0$
+1#
+1+
+0-
+10
+b110100100 )
+b110100100 .
+1&
+#35
+1$
+0#
+0+
+1-
+00
+0&
+#45
+02
+b11 !
+b11 /
+17
+b110010000 )
+b110010000 .
+1&
+#50
+0&
+#60
+1%
+0,
+05
+12
+b0 !
+b0 /
+07
+b0 )
+b0 .
+1&
+#65
+0&
+#75
+0%
+02
+1,
+b1 !
+b1 /
+17
+b110101100 )
+b110101100 .
+1&
+#80
+0&

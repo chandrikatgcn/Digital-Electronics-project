@@ -1,0 +1,16 @@
+Chandrika.T.G
+16CO214
+
+Since 2 wheelers and 4 wheelers entry and exit depends on the password which is different for both 2 wheelers(3 bit decimal password) and 4 wheelers(5 bit decimal password),
+*Same test bench cannot be made and hence each has different test bench and verilog codes
+
+
+#Verilog code for Behavioral modelling of 
+	2  wheelers has the name VerilogDM_106_214(2w_entry).v----for entry in the parking slot which include the test bench in itself
+			      VerilogDM_106_214(2w_exit).v----for exiting  the parking slot which include the test bench in itself
+			      vcd file as VerilogDM_106_214_2w_entry.vcd and VerilogDM_106_214_2w_exit.vcd 
+
+
+	4  wheelers has the name VerilogDM_106_214(4w_entry).v----for entry in the parking slot which include the test bench in itself
+			      VerilogDM_106_214(4w_exit).v----for exiting  the parking slot which include the test bench in itself
+			      vcd file as VerilogDM_106_214_4w_entry.vcd and VerilogDM_106_214_4w_exit.vcd 

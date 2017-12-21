@@ -1,0 +1,199 @@
+$date
+	Tue Nov 07 19:55:27 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Verilog_214_test $end
+$var wire 12 ! num_in_park_slot [12:1] $end
+$var wire 12 " num_exit_next [12:1] $end
+$var wire 12 # num_entry_next [12:1] $end
+$var wire 1 $ gate_open $end
+$var wire 1 % gate_closed $end
+$var wire 2 & count_prev_exit [2:1] $end
+$var wire 2 ' count_prev_entry [2:1] $end
+$var wire 2 ( count_next_exit [2:1] $end
+$var wire 2 ) count_next_entry [2:1] $end
+$var wire 2 * count_exit [2:1] $end
+$var wire 2 + count_entry [2:1] $end
+$var reg 1 , buzzer $end
+$var reg 1 - clear $end
+$var reg 1 . clear_new $end
+$var reg 1 / entry $end
+$var reg 1 0 exit $end
+$var reg 20 1 password [20:1] $end
+$scope module test $end
+$var wire 1 , buzzer $end
+$var wire 1 - clear $end
+$var wire 1 . clear_new $end
+$var wire 1 / entry $end
+$var wire 1 0 exit $end
+$var wire 20 2 password [20:1] $end
+$var reg 2 3 count_entry [1:0] $end
+$var reg 2 4 count_exit [1:0] $end
+$var reg 2 5 count_next_entry [2:1] $end
+$var reg 2 6 count_next_exit [2:1] $end
+$var reg 2 7 count_prev_entry [2:1] $end
+$var reg 2 8 count_prev_exit [2:1] $end
+$var reg 1 % gate_closed $end
+$var reg 1 $ gate_open $end
+$var reg 12 9 num_entry_next [12:1] $end
+$var reg 12 : num_exit_next [12:1] $end
+$var reg 12 ; num_in_park_slot [12:1] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ;
+b111111111111 :
+b1 9
+b0 8
+b0 7
+bx 6
+b1 5
+b0 4
+b0 3
+b0 2
+b0 1
+00
+1/
+x.
+1-
+0,
+b0 +
+b0 *
+b1 )
+bx (
+b0 '
+b0 &
+1%
+0$
+b1 #
+b111111111111 "
+b0 !
+$end
+#10
+0%
+1$
+b1 !
+b1 ;
+b10 )
+b10 5
+b1 '
+b1 7
+b0 +
+b0 3
+b10010001001010001 1
+b10010001001010001 2
+1,
+0-
+#20
+0%
+1$
+b10 !
+b10 ;
+b11 )
+b11 5
+b0 "
+b0 :
+b10 #
+b10 9
+b10 '
+b10 7
+b0 +
+b0 3
+b11000000111001 1
+b11000000111001 2
+#30
+1%
+0$
+b1 )
+b1 5
+b1 "
+b1 :
+b11 #
+b11 9
+b11 '
+b11 7
+b0 +
+b0 3
+b1010100111000000 1
+b1010100111000000 2
+#40
+b10 )
+b10 5
+b1 '
+b1 7
+b0 +
+b0 3
+b1010101010011110 1
+b1010101010011110 2
+#50
+b11 )
+b11 5
+b10 '
+b10 7
+b0 +
+b0 3
+b1011010000001010 1
+b1011010000001010 2
+#60
+b1 )
+b1 5
+b11 '
+b11 7
+b0 +
+b0 3
+b1100001101100111 1
+b1100001101100111 2
+#70
+0%
+1$
+b11 !
+b11 ;
+b10 )
+b10 5
+b1 '
+b1 7
+b0 +
+b0 3
+b1001001010111101 1
+b1001001010111101 2
+#80
+0%
+1$
+b0 *
+b0 4
+b10 !
+b10 ;
+b1 (
+b1 6
+b10 "
+b10 :
+b100 #
+b100 9
+b10 '
+b10 7
+b10 +
+b10 3
+b10010001001010001 1
+b10010001001010001 2
+0/
+10
+#90
+0%
+1$
+b0 *
+b0 4
+b1 !
+b1 ;
+b1 "
+b1 :
+b11 #
+b11 9
+b11000000111001 1
+b11000000111001 2
